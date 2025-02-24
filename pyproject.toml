@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bisectionmethod"
+version = "0.0.0"
+authors = [
+  { name="Anna Maria Moran", email="amoran1@bu.edu" },
+]
+description = "bisectionmethod workflow"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "matplotlib==3.10.0",
+    "numpy==1.26.4",
+    "pytest==7.1.2",
+    "pytest-cov==3.0.0",
+    "scipy==1.12.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ammoran922/ME700_Assignment2"
+"Bug Tracker" = "https://github.com/ammoran922/ME700_Assignment2/issues"
