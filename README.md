@@ -1,17 +1,18 @@
 # Assignment 2
 
 ## Table of Contents
-[insert table of contents]
+1. Installation Instructions
+2. Direct Stiffness Method
 
-## Installation Instructions
+## 1. Installation Instructions
 To install this package, please begin by setting up a conda environment:
 ```
-mamba create --name assignment1 python=3.9.12
+mamba create --name assignment2 python=3.9.12
 ```
 
 Once the environment has been created, activate it:
 ```
-mamba activate assignment1
+mamba activate assignment2
 ```
 
 Double check that python is version 3.9.12 in the environment:
@@ -35,31 +36,8 @@ pytest -v --cov=bisectionmethod --cov-report term-missing
 ```
 Code coverage should be 100%.
 
-## Bisection Method
-insert description
-
-## Newton's Method
-insert description
+## 2. Direct Stiffness Method
+Direct Stiffness Method Implementation
 
 ### Example 1
-
-### Example 2
-
-### Example 3
-
-### Example 4
-
-### Example 5
-
-## Elastoplastic Material Model
-insert description
-
-### Example 1
-
-### Example 2
-
-### Example 3
-
-### Example 4
-
-### Example 5
+TBD
